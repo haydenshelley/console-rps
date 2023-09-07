@@ -60,10 +60,6 @@ function playGame() {
   } else {
     console.log("The Game is a Tie!!!");
   }
-  let playAgain = prompt("Play Again? (Y/N)");
-  if (playAgain === "Y") {
-    playGame();
-  }
 }
 
 console.log(playGame());
